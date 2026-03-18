@@ -219,8 +219,8 @@ def evaluate_model(model, test_loader, X_test, y_test):
 train_losses, val_losses = train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3)
 evaluate_model(model, test_loader, X_test, y_test)
 # Plot loss
-print('Name: SANJITH R')
-print('Reg. no.: 212223230191')
+print('Name: MUGIL RAJ S A')
+print('Reg. no.: 212223220062')
 history_df = pd.DataFrame({"loss": train_losses, "val_loss": val_losses})
 history_df.plot(title="Loss Over Epochs")
 plt.xlabel("Epoch")
