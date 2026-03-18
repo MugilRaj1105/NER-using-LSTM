@@ -30,8 +30,8 @@ Train the model using the training data.
 Evaluate the model performance on test data.
 
 ## PROGRAM
-### Name: SANJITH R
-### Register Number: 212223230191
+### Name: MUGIL RAJ S A
+### Register Number: 212223220062
 ```
 import pandas as pd
 import torch
@@ -235,8 +235,8 @@ output = model(sample)
 preds = torch.argmax(output, dim=-1).squeeze().cpu().numpy()
 true = y_test[i].numpy()
 
-print('Name: SANJITH R')
-print('Reg. no.: 212223230191')
+print('Name: MUGIL RAJ S A')
+print('Reg. no.: 212223220062')
 print("{:<15} {:<10} {}\n{}".format("Word", "True", "Pred", "-" * 40))
 for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
     if w_id.item() != word2idx["ENDPAD"]:
@@ -248,11 +248,12 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-<img width="756" height="502" alt="image" src="https://github.com/user-attachments/assets/ea0ec7d3-1a59-4749-9cf9-e2f1245953f7" />
+<img width="792" height="626" alt="image" src="https://github.com/user-attachments/assets/26d0b8af-8989-4e1a-a9bc-fb79a0f500f0" />
+
 
 
 ### Sample Text Prediction
-<img width="435" height="410" alt="image" src="https://github.com/user-attachments/assets/887e0d19-cc07-4138-aa42-9d435a9fe6d8" />
+<img width="435" height="507" alt="image" src="https://github.com/user-attachments/assets/28b4f859-2120-4524-a341-b32e3285d298" />
 
 
 ## RESULT
